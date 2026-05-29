@@ -29,7 +29,7 @@
 
 Hệ thống được chốt ở mức vừa sức cho đồ án cơ sở 2:
 
-- 8 module chính và 1 module dữ liệu nền.
+- 9 module chính và 1 module dữ liệu nền.
 - Khoảng 45-50 chức năng nếu tính gộp phần tỉnh/huyện vào admin và sản phẩm.
 - 11 bảng cơ sở dữ liệu chính.
 - Không làm các phần quá lớn như thanh toán online, bản đồ, xuất báo cáo PDF/Excel, dự báo giá hoặc chat nâng cao.
@@ -45,7 +45,8 @@ Hệ thống được chốt ở mức vừa sức cho đồ án cơ sở 2:
 | 5 | Chat Module | Nhắn tin văn bản theo giao dịch |
 | 6 | Review Module | Chấm sao, nhận xét, điểm uy tín |
 | 7 | Dashboard Module | Thống kê tổng quan theo từng vai trò |
-| 8 | Admin Module | Quản trị người dùng, danh mục, bài đăng, giao dịch |
+| 8 | Partner Directory Module| Khám phá danh bạ và kết nối nhanh đối tác |
+| 9 | Admin Module | Quản trị người dùng, danh mục, bài đăng, giao dịch |
 
 ## 6. Module dữ liệu nền
 

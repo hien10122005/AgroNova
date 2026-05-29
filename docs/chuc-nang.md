@@ -28,6 +28,8 @@ Chức năng:
 - Cập nhật trạng thái giao hàng.
 - Nhắn tin với thương lái.
 - Đánh giá thương lái sau khi giao dịch hoàn thành.
+- Xem danh bạ Thương lái (Partner Directory).
+- Xem hồ sơ đối tác và kết nối nhanh.
 - Xem dashboard bán hàng cá nhân.
 
 ### 2.2. Thương lái
@@ -49,6 +51,8 @@ Chức năng:
 - Xác nhận đã nhận hàng.
 - Nhắn tin với nông dân.
 - Đánh giá nông dân sau khi giao dịch hoàn thành.
+- Xem danh bạ Nông dân (Partner Directory).
+- Xem hồ sơ đối tác và tìm kiếm nguồn cung nhanh.
 - Xem dashboard mua hàng cá nhân.
 
 ### 2.3. Admin
@@ -232,6 +236,19 @@ Chức năng chính:
 - Thương lái lọc sản phẩm theo tỉnh/thành phố và quận/huyện bằng dropdown.
 - Hệ thống lưu `tinh_thanh_pho_id` và `quan_huyen_id` thay vì chỉ lưu tên dạng text.
 
+### 3.10. Partner Directory Module
+
+Kết nối trực tiếp nông dân và thương lái thông qua danh bạ cộng đồng (Cộng đồng Đối tác).
+
+Chức năng chính:
+
+- Xem danh sách nông dân uy tín (dành cho thương lái).
+- Xem danh sách thương lái thu mua lớn (dành cho nông dân).
+- Tìm kiếm đối tác theo tên hoặc vai trò.
+- Lọc đối tác theo khu vực (Tỉnh/Thành phố).
+- Xem thông tin tổng quan trên thẻ đối tác (Avatar, Đánh giá sao, Vị trí).
+- Nút truy cập nhanh: Xem hồ sơ chi tiết hoặc Nhắn tin trực tiếp.
+
 ## 4. Chức năng ưu tiên
 
 ### 4.1. Chức năng bắt buộc
@@ -245,6 +262,7 @@ Chức năng chính:
 - Gửi yêu cầu mua.
 - Chấp nhận hoặc từ chối yêu cầu mua.
 - Tạo và theo dõi giao dịch.
+- Xem Danh bạ Đối tác (Partner Directory) để chủ động kết nối.
 - Dashboard đơn giản cho từng vai trò.
 - Admin quản lý người dùng, bài đăng, danh mục và giao dịch.
 - Quản lý tỉnh/thành phố và quận/huyện để dùng trong form đăng bài và form lọc.
@@ -282,6 +300,7 @@ Chức năng chính:
 | Dashboard Module | 8 |
 | Admin Module | 7 |
 | Location Master Data Module | 6 |
+| Partner Directory Module | 5 |
 | Tổng | 56 |
 
 Nếu tính gộp Location Master Data vào Admin Module và Product Module, số chức năng thực tế có thể trình bày khoảng 45-50 chức năng để báo cáo gọn hơn.
