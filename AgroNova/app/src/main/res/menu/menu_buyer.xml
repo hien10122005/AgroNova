@@ -2,22 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/nav_market"
-        android:icon="@drawable/ic_compass"
+        android:icon="@drawable/ic_la_ban"
         android:title="Chợ Nông Sản" />
     <item
         android:id="@+id/nav_saved"
-        android:icon="@drawable/ic_star"
+        android:icon="@drawable/ic_ngoi_sao"
         android:title="Đã lưu" />
     <item
         android:id="@+id/nav_purchases"
-        android:icon="@drawable/ic_receipt"
+        android:icon="@drawable/ic_hoa_don"
         android:title="Mua hàng" />
     <item
         android:id="@+id/nav_chat"
-        android:icon="@drawable/ic_chat"
+        android:icon="@drawable/ic_nhan_tin"
         android:title="Tin nhắn" />
     <item
         android:id="@+id/nav_profile"
-        android:icon="@drawable/ic_avatar"
+        android:icon="@drawable/ic_anh_dai_dien"
         android:title="Tài khoản" />
 </menu>

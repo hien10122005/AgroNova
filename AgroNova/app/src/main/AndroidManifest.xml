@@ -20,6 +20,41 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- Auth -->
+        <activity android:name=".ui.auth.DangNhapActivity" android:exported="false" />
+        <activity android:name=".ui.auth.DangKyActivity" android:exported="false" />
+        <activity android:name=".ui.auth.QuenMatKhauActivity" android:exported="false" />
+        <activity android:name=".ui.auth.XacThucOtpActivity" android:exported="false" />
+        
+        <!-- Farmer -->
+        <activity android:name=".ui.farmer.TrangChuNongDanActivity" android:exported="false" />
+        <activity android:name=".ui.farmer.DangBanSanPhamActivity" android:exported="false" />
+        <activity android:name=".ui.farmer.QuanLyBaiDangActivity" android:exported="false" />
+        <activity android:name=".ui.farmer.BaiDangCuaToiActivity" android:exported="false" />
+        
+        <!-- Buyer -->
+        <activity android:name=".ui.buyer.TrangChuThuongLaiActivity" android:exported="false" />
+        <activity android:name=".ui.buyer.ChoNongSanActivity" android:exported="false" />
+        <activity android:name=".ui.buyer.ChiTietSanPhamActivity" android:exported="false" />
+        <activity android:name=".ui.buyer.GuiYeuCauMuaActivity" android:exported="false" />
+        
+        <!-- Admin -->
+        <activity android:name=".ui.admin.TrangChuAdminActivity" android:exported="false" />
+        <activity android:name=".ui.admin.QuanLyNguoiDungActivity" android:exported="false" />
+        <activity android:name=".ui.admin.QuanTriHeThongActivity" android:exported="false" />
+        
+        <!-- Order -->
+        <activity android:name=".ui.order.ChiTietGiaoDichActivity" android:exported="false" />
+        <activity android:name=".ui.order.DanhSachGiaoDichActivity" android:exported="false" />
+        <activity android:name=".ui.order.DanhSachYeuCauMuaActivity" android:exported="false" />
+        
+        <!-- Chat -->
+        <activity android:name=".ui.chat.NhanTinActivity" android:exported="false" />
+        <activity android:name=".ui.chat.DanhSachTinNhanActivity" android:exported="false" />
+        <activity android:name=".ui.chat.DanhBaDoiTacActivity" android:exported="false" />
+        <!-- Profile & Review -->
+        <activity android:name=".ui.profile.HoSoNguoiDungActivity" android:exported="false" />
+        <activity android:name=".ui.review.DanhGiaDichVuActivity" android:exported="false" />
     </application>
 
 </manifest>
